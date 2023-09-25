@@ -29,15 +29,19 @@ Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/pa
 * (NIPS 2022)"Unsupervised Domain Adaptation for Semantic Segmentation using Depth Distribution"[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/5c882988ce5fac487974ee4f415b96a9-Paper-Conference.pdf) [[code]](https://github.com/depdis/Depth_Distribution)
 
 * (ICCV 2023)"Contrastive Model Adaptation for Cross-Condition Robustness in Semantic Segmentation" [[PDF]](https://arxiv.org/pdf/2303.05194.pdf) [[code]](https://github.com/brdav/cma)
+  
 * (ICCV 2023)"To Adapt or Not to Adapt? Real-Time Adaptation for Semantic Segmentation" [[PDF]](https://arxiv.org/pdf/2307.15063.pdf) [[code]]( https://github.com/MarcBotet/hamlet)
-* (ICCV 2023)"PODA: Prompt-driven Zero-shot Domain Adaptation"[[PDF]]( https://arxiv.org/pdf/2212.03241.pdf) [[code]](https://github.com/astra-vision/PODA)
+
 * (ICCV 2023 Oral)"Similarity Min-Max: Zero-Shot Day-Night Domain Adaptation"[[PDF]](https://red-fairy.github.io/ZeroShotDayNightDA-Webpage/paper.pdf) [[code]](https://github.com/Red-Fairy/ZeroShotDayNightDA)
+  * existing works rely heavily on domain knowledge derived from the task specific nighttime dataset. （训练数据依赖特定任务的数据集）-> zero-shot
+  * image-level methods simply consider synthetic nighttime as pseudo-labeled data and overlook model-level feature extraction；model-level methods focus on adjusting model architecture but neglect image-level nighttime characteristics.（现有模型没有统筹考虑图像层面和模型层面的特点）-> 图像方面迁移后和原图相似性最小化，模型层面域适应最大化图像相似性
 
 
-
-## 雾天特征
+## 恶劣天气特征
 * (CVPR 2022) "FIFO: Learning Fog-invariant Features for Foggy Scene Segmentation" [[PDF]](https://arxiv.org/pdf/2204.01587.pdf) [[code]](https://github.com/sohyun-l/fifo)
-
+  
+* (ICCV 2023) "PODA: Prompt-driven Zero-shot Domain Adaptation"[[PDF]]( https://arxiv.org/pdf/2212.03241.pdf) [[code]](https://github.com/astra-vision/PODA)
+  * New task：‘Prompt-driven Zero-shot Domain Adaptation’, where we adapt a model trained on a source domain using only a general description in natural language of the target domain
 
 ## 伪标签
 
@@ -76,3 +80,8 @@ via Hierarchical Mask Calibration" [[PDF]](https://openaccess.thecvf.com/content
 * FoggyZurich
 * ACDC
 * BDD100K
+* DarkZurich
+* Nighttime Driving
+* ACG (Adverse-Condition Generalization):o 121 fog, 225 rain, 276 snow, and 300 night images [[link]](https://github.com/brdav/cma)
+
+
