@@ -40,7 +40,10 @@ Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/pa
 
 * (NIPS 2022)"Unsupervised Domain Adaptation for Semantic Segmentation using Depth Distribution"[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/5c882988ce5fac487974ee4f415b96a9-Paper-Conference.pdf) [[code]](https://github.com/depdis/Depth_Distribution)
 
-## 恶劣天气特征
+## 恶劣天气风格特征
+
+* (arxiv 2023.5) "Condition-Invariant Semantic Segmentation" [[PDF]](https://arxiv.org/pdf/2305.17349.pdf) [[code]](https://github.com/SysCV/CISS)
+
 * (ICCV 2023) "PODA: Prompt-driven Zero-shot Domain Adaptation"[[PDF]]( https://arxiv.org/pdf/2212.03241.pdf) [[code]](https://github.com/astra-vision/PODA)
   * New task：‘Prompt-driven Zero-shot Domain Adaptation’, where we adapt a model trained on a source domain using only a general description in natural language of the target domain
 
@@ -48,7 +51,7 @@ Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/pa
 
 ## 伪标签
 
-* (ICCV Workshop 2023) "SegDA: Maximum Separable Segment Mask with Pseudo Labels for Domain Adaptive Semantic Segmentation".  [[PDF]](https://arxiv.org/pdf/2308.05851) 
+* (ICCV Workshop 2023) "SegDA: Maximum Separable Segment Mask with Pseudo Labels for Domain Adaptive Semantic Segmentation".  [[PDF]](https://arxiv.org/pdf/2308.05851) [[code]](https://github.com/SysCV/CISS)
   
 * (CVPR 2023) "Continuous Pseudo-Label Rectified Domain Adaptive Semantic Segmentation
 with Implicit Neural Representations" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gong_Continuous_Pseudo-Label_Rectified_Domain_Adaptive_Semantic_Segmentation_With_Implicit_Neural_CVPR_2023_paper.pdf) [[code]](https://github.com/ETHRuiGong/IR2F)
@@ -96,5 +99,6 @@ Semantic-Segmentation in Adverse Conditions"[[PDF]](https://arxiv.org/pdf/2310.0
 * Nighttime Driving
 * ACG (Adverse-Condition Generalization):o 121 fog, 225 rain, 276 snow, and 300 night images [[link]](https://github.com/brdav/cma)
 * DSEC Night_Semantic: 5 nighttime sequences of Zurich City 09a-e, and includes 1,692 training samples and 150 testing samples. [[link]](https://dsec.ifi.uzh.ch/dsec-datasets/download/)
-
+* [MUAD Dataset](https://muad-dataset.github.io/) a synthetic dataset for autonomous driving with multiple uncertainty types and tasks. It contains 10413 in total: 3420 images in the train set, 492 in the validation set and 6501 in the test set. The test set is divided as follows: 551 in the normal set, 102 in the normal set no shadow, 1668 in the OOD set, 605 in the low adversity set and 602 images in the high adversity set 1552 in the low adversity with OOD set and 1421 images in the high adversity with OOD set. All of these sets cover day and night conditions, with 2/3 being day images and 1/3 night images. Test datasets address diverse weather conditions (rain, snow, and fog with two different intensity levels) and multiple OOD objects. [[link1]](https://drive.google.com/drive/folders/1CJaM1hdjZr9RMQVB4JFJ7QMUFIHYxFVo?usp=sharing) 
+ [[link2]](https://we.tl/t-5ZmFYzaeVT)
 
