@@ -4,7 +4,12 @@ This repo will keep updating ... 🤗
 
 ## UDA训练方式
 
+* (ICCV 2023)"CMDA: Cross-Modality Domain Adaptation for Nighttime
+Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_CMDA_Cross-Modality_Domain_Adaptation_for_Nighttime_Semantic_Segmentation_ICCV_2023_paper.pdf) [[code]](https://github.com/XiaRho/CMDA)
+  * P1: Conventional cameras fail to capture structural details and boundary information in low-light conditions. -> Event cameras -> unsupervised Cross-Modality Domain Adaptation (CMDA) framework to leverage multi-modality (Images and Events) information for nighttime semantic segmentation (数据不够，引入了额外的event信息，有点像先验)
+
 * (ICCV 2023)"Contrastive Model Adaptation for Cross-Condition Robustness in Semantic Segmentation" [[PDF]](https://arxiv.org/pdf/2303.05194.pdf) [[code]](https://github.com/brdav/cma)
+  * 利用参考图像的信息缩短域差异，进行信息交换和对比学习
   
 * (ICCV 2023)"To Adapt or Not to Adapt? Real-Time Adaptation for Semantic Segmentation" [[PDF]](https://arxiv.org/pdf/2307.15063.pdf) [[code]]( https://github.com/MarcBotet/hamlet)
 
@@ -25,7 +30,6 @@ Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/pa
 
 * (CVPR 2023)"DA-DETR: Domain Adaptive Detection Transformer with Information Fusion"[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DA-DETR_Domain_Adaptive_Detection_Transformer_With_Information_Fusion_CVPR_2023_paper.pdf)
   
-
 * (AAAI 2023 oral)"VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions" [[PDF]](https://arxiv.org/abs/2211.12256) [[code]](https://github.com/BIT-DA/VBLC)
      
     * P1: However, previous methods often reckon on additional reference images of the same scenes taken from normal conditions, which are quite tough to collect in reality. (训练数据的获取方式依赖参考)
@@ -63,8 +67,14 @@ via Hierarchical Mask Calibration" [[PDF]](https://openaccess.thecvf.com/content
 
 * (NIPS 2023) "Open Compound Domain Adaptation with Object Style Compensation for Semantic Segmentation" [[PDF]](https://arxiv.org/pdf/2309.16127.pdf)
 
+## Prompt
+* (Arxiv 2023.10)"DiffPrompter: Differentiable Implicit Visual Prompts for
+Semantic-Segmentation in Adverse Conditions"[[PDF]](https://arxiv.org/pdf/2310.04181.pdf) [[code]](https://github.com/DiffPrompter/diff-prompter)
+
 
 ## 其他相关
+
+* (ICCV 2023 Oral) "Iterative Prompt Learning for Unsupervised Backlit Image Enhancement" [[PDF]](https://browse.arxiv.org/pdf/2303.17569.pdf) [[code]](https://github.com/ZhexinLiang/CLIP-LIT)
   
 * (Arxiv 2023) "MoWE: Mixture of Weather Experts for Multiple Adverse Weather Removal".  [[PDF]](https://arxiv.org/pdf/2303.13739.pdf)
 
@@ -85,5 +95,6 @@ via Hierarchical Mask Calibration" [[PDF]](https://openaccess.thecvf.com/content
 * DarkZurich
 * Nighttime Driving
 * ACG (Adverse-Condition Generalization):o 121 fog, 225 rain, 276 snow, and 300 night images [[link]](https://github.com/brdav/cma)
+* DSEC Night_Semantic: 5 nighttime sequences of Zurich City 09a-e, and includes 1,692 training samples and 150 testing samples. [[link]](https://dsec.ifi.uzh.ch/dsec-datasets/download/)
 
 
