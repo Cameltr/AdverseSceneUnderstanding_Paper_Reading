@@ -2,7 +2,7 @@
 
 This repo will keep updating ... 🤗
 
-## UDA训练方式
+## UDA
 
 * (ICCV 2023)"CMDA: Cross-Modality Domain Adaptation for Nighttime
 Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_CMDA_Cross-Modality_Domain_Adaptation_for_Nighttime_Semantic_Segmentation_ICCV_2023_paper.pdf) [[code]](https://github.com/XiaRho/CMDA)
@@ -75,7 +75,14 @@ via Hierarchical Mask Calibration" [[PDF]](https://openaccess.thecvf.com/content
 Semantic-Segmentation in Adverse Conditions"[[PDF]](https://arxiv.org/pdf/2310.04181.pdf) [[code]](https://github.com/DiffPrompter/diff-prompter)
 
 
+# One-shot UDA
+
+* (CVPR 2023) "Informative Data Mining for One-shot Cross-Domain Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Informative_Data_Mining_for_One-Shot_Cross-Domain_Semantic_Segmentation_ICCV_2023_paper.pdf) [[code]](https://github.com/yxiwang/IDM)
+
+
 ## 其他相关
+
+
 
 * (ICCV 2023 Oral) "Iterative Prompt Learning for Unsupervised Backlit Image Enhancement" [[PDF]](https://browse.arxiv.org/pdf/2303.17569.pdf) [[code]](https://github.com/ZhexinLiang/CLIP-LIT)
   
@@ -85,6 +92,8 @@ Semantic-Segmentation in Adverse Conditions"[[PDF]](https://arxiv.org/pdf/2310.0
   
 * (CVPR 2023) "Learning Weather-General and Weather-Specific Features for Image Restoration Under Multiple Adverse Weather Conditions" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Learning_Weather-General_and_Weather-Specific_Features_for_Image_Restoration_Under_Multiple_CVPR_2023_paper.pdf)
 
+
+* (CVPR 2022) "Semantic-Aware Domain Generalized Segmentation"
 
 
 
