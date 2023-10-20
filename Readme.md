@@ -51,6 +51,8 @@ Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/pa
 
 ## 伪标签
 
+* (CVPR 2023) ""[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Learning_Pseudo-Relations_for_Cross-domain_Semantic_Segmentation_ICCV_2023_paper.pdf) [[code]]()
+
 * (ICCV Workshop 2023) "SegDA: Maximum Separable Segment Mask with Pseudo Labels for Domain Adaptive Semantic Segmentation".  [[PDF]](https://arxiv.org/pdf/2308.05851) [[code]](https://github.com/SysCV/CISS)
   
 * (CVPR 2023) "Continuous Pseudo-Label Rectified Domain Adaptive Semantic Segmentation
@@ -74,7 +76,6 @@ via Hierarchical Mask Calibration" [[PDF]](https://openaccess.thecvf.com/content
 * (Arxiv 2023.10)"DiffPrompter: Differentiable Implicit Visual Prompts for
 Semantic-Segmentation in Adverse Conditions"[[PDF]](https://arxiv.org/pdf/2310.04181.pdf) [[code]](https://github.com/DiffPrompter/diff-prompter)
 
-
 # One-shot UDA
 
 * (CVPR 2023) "Informative Data Mining for One-shot Cross-Domain Semantic Segmentation" [[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Informative_Data_Mining_for_One-Shot_Cross-Domain_Semantic_Segmentation_ICCV_2023_paper.pdf) [[code]](https://github.com/yxiwang/IDM)
@@ -82,6 +83,7 @@ Semantic-Segmentation in Adverse Conditions"[[PDF]](https://arxiv.org/pdf/2310.0
 
 ## 其他相关
 
+* (CVPR 2023) "CLIP the Gap: A Single Domain Generalization Approach for Object Detection" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Vidit_CLIP_the_Gap_A_Single_Domain_Generalization_Approach_for_Object_CVPR_2023_paper.pdf) [[code]](https://github.com/vidit09/domaingen)
 
 
 * (ICCV 2023 Oral) "Iterative Prompt Learning for Unsupervised Backlit Image Enhancement" [[PDF]](https://browse.arxiv.org/pdf/2303.17569.pdf) [[code]](https://github.com/ZhexinLiang/CLIP-LIT)
