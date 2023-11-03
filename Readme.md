@@ -84,6 +84,10 @@ Semantic-Segmentation in Adverse Conditions"[[PDF]](https://arxiv.org/pdf/2310.0
 
 ## 其他相关
 
+* (NIPS 2022)"Adversarial Style Augmentation for Domain Generalized Urban-Scene Segmentation" [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/023d94f44110b9a3c62329beec739772-Paper-Conference.pdf) 
+* 
+* (CVPR 2023)"StyleAdv: Meta Style Adversarial Training for Cross-Domain Few-Shot Learning" [[PDF]](https://arxiv.org/pdf/2302.09309.pdf) [[code]](https://github.com/lovelyqian/StyleAdv-CDFSL)
+
 * (CVPR 2023) "CLIP the Gap: A Single Domain Generalization Approach for Object Detection" [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Vidit_CLIP_the_Gap_A_Single_Domain_Generalization_Approach_for_Object_CVPR_2023_paper.pdf) [[code]](https://github.com/vidit09/domaingen)
 
 
