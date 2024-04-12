@@ -118,6 +118,9 @@ via Hierarchical Mask Calibration" [[PDF]](https://openaccess.thecvf.com/content
 
 
 ## Domain Generalization
+
+* (CVPR 2024) "A Simple Recipe for Language-guided Domain Generalized Segmentation"[[PDF]](https://arxiv.org/abs/2311.17922) [[code]](https://github.com/astra-vision/FAMix)
+
 * (CVPR 2024) "Collaborating Foundation models for Domain Generalized Semantic Segmentation"[[PDF]](https://arxiv.org/abs/2312.09788) [[code]](https://github.com/yasserben/CLOUDS)
 
 * (CVPR 2024) "Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation"[[PDF]](https://arxiv.org/pdf/2312.04265.pdf) [[code]](https://github.com/w1oves/Rein)
